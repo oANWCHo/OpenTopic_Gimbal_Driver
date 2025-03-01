@@ -1,0 +1,1188 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ea1eaa3d-8f21-4909-90ab-d62ac3efaefb")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 101.7191 63.5561) (xy 114.4191 63.5561)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ad2cd6-7ae4-411c-a9a9-d94037c428c8")
+	)
+	(wire
+		(pts
+			(xy 167.7591 76.2561) (xy 186.8091 76.2561)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a60e22-4137-4bfe-bd14-bc68dcc290c4")
+	)
+	(wire
+		(pts
+			(xy 101.7191 53.3961) (xy 114.4191 53.3961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19320975-a4aa-45e7-a8ef-7e06a6d7753b")
+	)
+	(wire
+		(pts
+			(xy 101.7191 55.9361) (xy 114.4191 55.9361)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cacf272-cc04-490f-8f52-af2bf8e9aea8")
+	)
+	(wire
+		(pts
+			(xy 240.03 76.2) (xy 240.1491 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cd8795-87de-424b-a1fa-a730e5f6d5c0")
+	)
+	(wire
+		(pts
+			(xy 167.7591 55.9361) (xy 186.8091 55.9361)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2903498c-3ba5-421b-9bbd-30135b4c6431")
+	)
+	(wire
+		(pts
+			(xy 101.7191 61.0161) (xy 114.4191 61.0161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4d8141-c855-4340-9580-8a5061bdcd6d")
+	)
+	(wire
+		(pts
+			(xy 101.7191 50.8561) (xy 114.4191 50.8561)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53636955-979e-417a-8fb6-d6c83b0c6d78")
+	)
+	(wire
+		(pts
+			(xy 101.7191 66.0961) (xy 114.4191 66.0961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cce480-afbc-41de-bdf8-298cc01fe913")
+	)
+	(wire
+		(pts
+			(xy 167.7591 63.5561) (xy 186.8091 63.5561)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd647a1-594c-401a-95c1-fcc153d016d6")
+	)
+	(wire
+		(pts
+			(xy 167.7591 53.3961) (xy 186.8091 53.3961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3c7de9-ebf0-43c2-8a2e-174eb09d3bed")
+	)
+	(wire
+		(pts
+			(xy 167.7591 66.0961) (xy 186.8091 66.0961)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b113c12-252e-4959-a74c-c2c4dcb97a3a")
+	)
+	(wire
+		(pts
+			(xy 101.7191 68.6361) (xy 114.4191 68.6361)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb8213d-3884-4cda-9f6a-116416a254ac")
+	)
+	(wire
+		(pts
+			(xy 167.7591 71.1761) (xy 186.8091 71.1761)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a178eb52-a18f-4d71-a3ea-6518be1f468b")
+	)
+	(wire
+		(pts
+			(xy 167.7591 68.6361) (xy 186.8091 68.6361)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afdc178c-dab5-4b94-8d24-fd5f695ccc49")
+	)
+	(wire
+		(pts
+			(xy 101.7191 71.1761) (xy 114.4191 71.1761)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46cac2d-deee-4e86-ae54-db7d64eab359")
+	)
+	(wire
+		(pts
+			(xy 167.7591 50.8561) (xy 186.8091 50.8561)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f5c0f2-644c-4d98-a7bc-1b994a9c685a")
+	)
+	(wire
+		(pts
+			(xy 101.7191 73.7161) (xy 114.4191 73.7161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c898f172-421b-4b94-93ba-112a84bdfe0a")
+	)
+	(wire
+		(pts
+			(xy 101.7191 48.3161) (xy 114.4191 48.3161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd014d39-6210-4cd8-a1e3-b16d9754fe1e")
+	)
+	(wire
+		(pts
+			(xy 167.7591 73.7161) (xy 186.8091 73.7161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca3bc2e-c233-452f-a269-00f3450bb578")
+	)
+	(wire
+		(pts
+			(xy 167.7591 58.4761) (xy 186.8091 58.4761)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b23815-5fca-4caf-9858-094fc0a0cb42")
+	)
+	(wire
+		(pts
+			(xy 167.7591 61.0161) (xy 186.8091 61.0161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18b096b-e142-4039-94ab-4f5be84e7352")
+	)
+	(wire
+		(pts
+			(xy 101.7191 58.4761) (xy 114.4191 58.4761)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9414d24-de6d-4705-afa6-5805f7d870f3")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 81.3991 22.9161 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56d62001-f9f6-4b87-a854-42265e68acd3")
+		(property "Reference" "H3"
+			(at 83.9391 21.6461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 83.9391 24.1861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 81.3991 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.3991 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.3991 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/ea1eaa3d-8f21-4909-90ab-d62ac3efaefb"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 61.0791 22.9161 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81808356-1f2a-4fc5-acf9-5555586da4b6")
+		(property "Reference" "H2"
+			(at 63.6191 21.6461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 63.6191 24.1861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 61.0791 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 61.0791 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 61.0791 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/ea1eaa3d-8f21-4909-90ab-d62ac3efaefb"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 40.7591 22.9161 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adf99db1-7965-49c8-a3a5-2a2a03bbd617")
+		(property "Reference" "H1"
+			(at 43.2991 21.6461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 43.2991 24.1861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 40.7591 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.7591 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.7591 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/ea1eaa3d-8f21-4909-90ab-d62ac3efaefb"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 100.4491 22.9161 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de58ba8f-ef5a-4828-a94d-207708a0121e")
+		(property "Reference" "H4"
+			(at 102.9891 21.6461 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 102.9891 24.1861 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 100.4491 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.4491 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.4491 22.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/ea1eaa3d-8f21-4909-90ab-d62ac3efaefb"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.3791 45.7761)
+		(size 53.34 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "470ef6da-6cd9-4844-9265-566fbf22dd90")
+		(property "Sheetname" "External Sensor and Encoder"
+			(at 48.3791 45.0645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "External Sensor and Encoder.kicad_sch"
+			(at 48.3791 79.3807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IMU_MOSI" input
+			(at 101.7191 73.7161 0)
+			(uuid "0b4f5499-8b8c-4136-b962-5dfe0427a61f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT2" output
+			(at 101.7191 66.0961 0)
+			(uuid "668672bf-f344-40d5-a4a7-f59eda759dd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_MISO" output
+			(at 101.7191 71.1761 0)
+			(uuid "6ad2e1d5-b56a-402f-9ab1-74cf2a4e1a46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_CS" input
+			(at 101.7191 61.0161 0)
+			(uuid "a8c01145-8250-4b37-bc74-769d317e0161")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_SCLK" input
+			(at 101.7191 68.6361 0)
+			(uuid "0452b04d-2409-41b4-9aca-ebf792acdf9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT1" output
+			(at 101.7191 63.5561 0)
+			(uuid "479124a7-4543-4681-a8aa-3a8cc3ba3e4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Encoder1 A" output
+			(at 101.7191 58.4761 0)
+			(uuid "f4bde490-c457-4f69-a508-798ecf6b49ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Encoder1 B" output
+			(at 101.7191 55.9361 0)
+			(uuid "2c219942-0cd4-4bc3-9438-5a2cbaffdde6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Encoder2 B" output
+			(at 101.7191 50.8561 0)
+			(uuid "a6be2377-95c9-4b38-9aba-1c70b2682ea9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Encoder2 A" output
+			(at 101.7191 53.3961 0)
+			(uuid "1c22bb1a-b308-4051-a391-9222f108ab63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Button" output
+			(at 101.7191 48.3161 0)
+			(uuid "66cb16f5-8b13-49d6-8788-7fb6674505cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/ea1eaa3d-8f21-4909-90ab-d62ac3efaefb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.8091 45.7761)
+		(size 53.34 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fe0378d-eb1e-4f25-8b76-fc4e166a4e23")
+		(property "Sheetname" "3-Phase Driver"
+			(at 186.8091 45.0645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3-Phase Driver.kicad_sch"
+			(at 186.8091 80.6507 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vcurrfdbk_A" output
+			(at 186.8091 76.2561 180)
+			(uuid "e933787c-6ce5-4836-be27-9146d49dd641")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vcurrfdbk_B" output
+			(at 186.8091 73.7161 180)
+			(uuid "048dfc3b-a04d-4068-83d1-a4eee7118097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vcurrfdbk_C" output
+			(at 186.8091 71.1761 180)
+			(uuid "5ce4250c-1354-4b34-8ddf-2b6071a94cbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NSLEEP" input
+			(at 186.8091 53.3961 180)
+			(uuid "f9ec33be-1c8a-4ee8-8fe2-0a97b9f6a078")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NFAULT" input
+			(at 186.8091 50.8561 180)
+			(uuid "867e8f41-272c-45ae-9fbf-1b7101bfc3ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM1_CH3" input
+			(at 186.8091 63.5561 180)
+			(uuid "9cbc8d99-8831-433b-bc89-fc81455649a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM1_CH2N" input
+			(at 186.8091 58.4761 180)
+			(uuid "8a4ba985-783e-444b-adbd-0194062b76aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM1_CH2" input
+			(at 186.8091 66.0961 180)
+			(uuid "df4ac7e0-4634-4ee1-a328-38fa8104f3cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM1_CH3N" input
+			(at 186.8091 55.9361 180)
+			(uuid "6b0112f9-3c3b-4592-a0b1-e3dd9f74fd7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM1_CH1N" input
+			(at 186.8091 61.0161 180)
+			(uuid "f787a3e5-31dc-4beb-872a-530c622fb59a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM1_CH1" input
+			(at 186.8091 68.6361 180)
+			(uuid "96a0ed52-788f-4480-b3e7-66e3ec3aa4d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/ea1eaa3d-8f21-4909-90ab-d62ac3efaefb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.4191 45.7761)
+		(size 53.34 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b145355d-b658-4da3-81a9-4047a3067e84")
+		(property "Sheetname" "MCU"
+			(at 114.4191 45.0645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 114.4191 80.6507 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vcurrfdbk_B" input
+			(at 167.7591 73.7161 0)
+			(uuid "5074be5b-39fe-47e6-bd17-45b6f895047a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vcurrfdbk_A" input
+			(at 167.7591 76.2561 0)
+			(uuid "75fe8932-91ed-40f8-bd90-f32534efeda5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vcurrfdbk_C" input
+			(at 167.7591 71.1761 0)
+			(uuid "93a48c39-70ab-45cd-aaf0-2b1d8dbd4aa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM1_CH1" output
+			(at 167.7591 68.6361 0)
+			(uuid "13f882a0-c916-406b-8549-c0b782e0461c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM1_CH2" output
+			(at 167.7591 66.0961 0)
+			(uuid "279d2a66-3cca-43b3-9296-9aebf0ba48a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM1_CH3" output
+			(at 167.7591 63.5561 0)
+			(uuid "7ee6ca15-6fc8-4748-8c7c-34c98dbb974c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Encoder1 B" input
+			(at 114.4191 55.9361 180)
+			(uuid "b4427321-fe79-4bba-929a-e7548380c837")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Encoder1 A" input
+			(at 114.4191 58.4761 180)
+			(uuid "2996f92f-75ba-4ae7-a76d-6e074f9de699")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM1_CH1N" output
+			(at 167.7591 61.0161 0)
+			(uuid "2fe92660-34b3-4943-8d9b-bb1e85c12a82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM1_CH2N" output
+			(at 167.7591 58.4761 0)
+			(uuid "72bde231-7ad2-449b-8124-b57581a3421b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM1_CH3N" output
+			(at 167.7591 55.9361 0)
+			(uuid "f133d855-536a-4007-aaad-5748cfb196c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Encoder2 B" input
+			(at 114.4191 50.8561 180)
+			(uuid "753d7f6f-9cfb-4bb3-aa7f-215279bfbdd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Encoder2 A" input
+			(at 114.4191 53.3961 180)
+			(uuid "a8e37204-5956-4403-9e20-ba2d6cddaa12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Button" input
+			(at 114.4191 48.3161 180)
+			(uuid "66209693-3fed-4849-a12d-6274d3890cdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_CS" output
+			(at 114.4191 61.0161 180)
+			(uuid "95831629-9ddb-4f8d-b162-ae72752836c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_MISO" input
+			(at 114.4191 71.1761 180)
+			(uuid "de2beb59-9416-4d91-9150-97416d7cc788")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SCLK" output
+			(at 114.4191 68.6361 180)
+			(uuid "87f6d775-adbf-4c8f-8489-871dd8bb6423")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT1" input
+			(at 114.4191 63.5561 180)
+			(uuid "5dc708e0-e72c-4ec7-99bd-fd426f302418")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT2" input
+			(at 114.4191 66.0961 180)
+			(uuid "7245d034-1630-4d37-b73b-036562f2f60c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_MOSI" output
+			(at 114.4191 73.7161 180)
+			(uuid "c52e26ab-62a7-4fa0-a0cb-db5e838e4e24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NFAULT" input
+			(at 167.7591 50.8561 0)
+			(uuid "65ef6999-a4a7-4522-9c41-d798359d3aeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NSLEEP" output
+			(at 167.7591 53.3961 0)
+			(uuid "b0025383-2f83-4c0b-a828-8fa0560049d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/ea1eaa3d-8f21-4909-90ab-d62ac3efaefb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 47.1091 87.6861)
+		(size 53.34 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fbf7fa7d-f118-4c25-bcc8-4a06edb726c3")
+		(property "Sheetname" "PSU"
+			(at 47.1091 86.9745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 47.1091 122.5607 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/ea1eaa3d-8f21-4909-90ab-d62ac3efaefb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
