@@ -1,0 +1,2 @@
+(version 1)
+(rule test_track_angle (constraint track_angle (min 135)) (severity error) )

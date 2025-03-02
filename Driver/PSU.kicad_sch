@@ -4873,7 +4873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LQH43MN470K03L"
+		(property "Footprint" "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 243.84 64.77 0)
 			(effects
 				(font
