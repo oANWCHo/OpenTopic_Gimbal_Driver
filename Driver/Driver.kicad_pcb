@@ -894,8 +894,8 @@
 		(at 148.61 123.4)
 		(descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x04 2.54mm double row")
-		(property "Reference" "J1"
-			(at 1.27 -2.33 0)
+		(property "Reference" "Debug"
+			(at 1.27 -2.45 0)
 			(layer "F.SilkS")
 			(uuid "8fc866bc-b65d-4ab8-beda-f9b74b102ff6")
 			(effects
@@ -24022,7 +24022,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 8.0x10mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C4"
-			(at -0.3 0 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "8c8d5988-9028-48be-ae99-30c5f8e7f80f")
 			(effects
@@ -29601,20 +29601,20 @@
 		(uuid "dd53453b-c654-4a94-b0fc-3d7d5e8251f0")
 	)
 	(segment
+		(start 131.175 78.025)
+		(end 123.85 78.025)
+		(width 1)
+		(layer "F.Cu")
+		(net 57)
+		(uuid "11e21f52-0f4e-4043-84eb-a60e56efeeac")
+	)
+	(segment
 		(start 167.7 58.4)
 		(end 164.45 58.4)
 		(width 0.65)
 		(layer "F.Cu")
 		(net 57)
 		(uuid "1840b954-8202-4f29-8b6d-599a80c91afd")
-	)
-	(segment
-		(start 131.175 78.025)
-		(end 125.475 78.025)
-		(width 1)
-		(layer "F.Cu")
-		(net 57)
-		(uuid "2e3b1fbb-43f5-4083-9895-b58134368b75")
 	)
 	(segment
 		(start 150.4 63.45)
@@ -29631,6 +29631,14 @@
 		(layer "F.Cu")
 		(net 57)
 		(uuid "5194915b-38a4-4a14-a2be-08c3d5343ea3")
+	)
+	(segment
+		(start 123.85 78.025)
+		(end 123.85 76.4)
+		(width 1)
+		(layer "F.Cu")
+		(net 57)
+		(uuid "54a33896-6d2f-4d79-9416-96dabd1fa806")
 	)
 	(segment
 		(start 164.45 61.1)
@@ -29679,14 +29687,6 @@
 		(layer "F.Cu")
 		(net 57)
 		(uuid "8f659a45-747a-401a-9e8e-d0ed3ea73c01")
-	)
-	(segment
-		(start 125.475 78.025)
-		(end 123.85 76.4)
-		(width 1)
-		(layer "F.Cu")
-		(net 57)
-		(uuid "a0c8c69a-247e-48ab-9ef5-0ce07ae1953b")
 	)
 	(segment
 		(start 149.3625 68.7875)
@@ -35273,16 +35273,16 @@
 		)
 		(polygon
 			(pts
-				(xy 156.35 54.2) (xy 156.35 61.2) (xy 160.85 61.2) (xy 160.85 54.2)
+				(xy 156.35 54.2) (xy 156.35 61.2) (xy 160.5 61.2) (xy 160.5 54.2)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 160.793039 54.219685) (xy 160.838794 54.272489) (xy 160.85 54.324) (xy 160.85 61.076) (xy 160.830315 61.143039)
-				(xy 160.777511 61.188794) (xy 160.726 61.2) (xy 156.474 61.2) (xy 156.406961 61.180315) (xy 156.361206 61.127511)
+				(xy 160.443039 54.219685) (xy 160.488794 54.272489) (xy 160.5 54.324) (xy 160.5 61.076) (xy 160.480315 61.143039)
+				(xy 160.427511 61.188794) (xy 160.376 61.2) (xy 156.474 61.2) (xy 156.406961 61.180315) (xy 156.361206 61.127511)
 				(xy 156.35 61.076) (xy 156.35 54.324) (xy 156.369685 54.256961) (xy 156.422489 54.211206) (xy 156.474 54.2)
-				(xy 160.726 54.2)
+				(xy 160.376 54.2)
 			)
 		)
 	)
