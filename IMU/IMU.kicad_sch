@@ -3525,7 +3525,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01uF X7R"
+		(property "Value" "10nF X7R"
 			(at 127 139.7 90)
 			(effects
 				(font
