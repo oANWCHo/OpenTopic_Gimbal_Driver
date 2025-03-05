@@ -4163,7 +4163,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 93.98) (xy 158.75 93.98)
+			(xy 95.25 93.98) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4283,7 +4283,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 93.98) (xy 158.75 90.17)
+			(xy 100.33 93.98) (xy 100.33 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5145,7 +5145,7 @@
 	)
 	(global_label "AVDD"
 		(shape input)
-		(at 153.67 93.98 180)
+		(at 95.25 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5155,7 +5155,7 @@
 		)
 		(uuid "d898d4c5-8c26-4808-9ad6-14cf2f5bbbdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.047 93.98 0)
+			(at 87.627 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 206.248 41.91 90)
 			(effects
 				(font
@@ -7348,7 +7348,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 158.75 90.17 0)
+		(at 100.33 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7357,7 +7357,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9db1910-84de-4266-973d-bb7e4f486477")
 		(property "Reference" "#PWR051"
-			(at 158.75 93.98 0)
+			(at 100.33 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7366,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 158.75 85.09 0)
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +7374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 90.17 0)
+			(at 100.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +7383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 90.17 0)
+			(at 100.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +7392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 90.17 0)
+			(at 100.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
