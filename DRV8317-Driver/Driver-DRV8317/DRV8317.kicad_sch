@@ -1511,189 +1511,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3834,26 +3651,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 85.09) (xy 186.69 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "041204c1-d635-4286-9c7a-ec7533b24117")
-	)
-	(wire
-		(pts
-			(xy 146.05 85.09) (xy 152.4 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "075b9f47-49b9-42fe-a819-459ca05e1a4a")
-	)
-	(wire
-		(pts
 			(xy 226.06 93.98) (xy 227.33 93.98)
 		)
 		(stroke
@@ -4354,16 +4151,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 173.99 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7465a968-0348-4a02-85bd-df719ac86a5e")
-	)
-	(wire
-		(pts
 			(xy 41.91 166.37) (xy 49.53 166.37)
 		)
 		(stroke
@@ -4451,16 +4238,6 @@
 			(type default)
 		)
 		(uuid "859f8b7f-3ba8-4e30-9f4a-4883a092c657")
-	)
-	(wire
-		(pts
-			(xy 160.02 85.09) (xy 162.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888c1336-32ff-4886-a41a-2ff88046706b")
 	)
 	(wire
 		(pts
@@ -4681,16 +4458,6 @@
 			(type default)
 		)
 		(uuid "b7aab13c-f3ef-456e-a9ab-367e85e6a172")
-	)
-	(wire
-		(pts
-			(xy 181.61 85.09) (xy 186.69 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b817f297-6d48-46eb-bb41-51a7e2fa0c4e")
 	)
 	(wire
 		(pts
@@ -5648,17 +5415,6 @@
 		)
 		(uuid "255c654a-b66f-4a53-84e1-9292cfe4e8ee")
 	)
-	(hierarchical_label "NFAULT"
-		(shape input)
-		(at 146.05 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37e1ada2-1f68-4c52-9675-793276587054")
-	)
 	(hierarchical_label "Vcurrfdbk_B"
 		(shape output)
 		(at 186.69 130.81 180)
@@ -6270,74 +6026,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 166.37 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "245f9e1f-1edd-47be-8a2d-5d99e3ebab6f")
-		(property "Reference" "R37"
-			(at 166.37 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.6"
-			(at 166.37 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 166.37 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7087f7d1-2900-4f4f-a3ab-55211dbb4684")
-		)
-		(pin "2"
-			(uuid "a1a7f035-87ee-4293-9abc-d21cc2accedc")
-		)
-		(instances
-			(project "Driver-DRV8317"
-				(path "/3405951f-57dc-4fe4-9d27-c3f46aa5edca/050f18f7-fdeb-4ff1-ae4f-f557a7672314"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 53.34 45.72 0)
 		(unit 1)
@@ -6878,74 +6566,6 @@
 			(project "Driver-DRV8317"
 				(path "/3405951f-57dc-4fe4-9d27-c3f46aa5edca/050f18f7-fdeb-4ff1-ae4f-f557a7672314"
 					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 156.21 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50f5a81b-a86b-4b88-b0b4-01152e215b06")
-		(property "Reference" "R36"
-			(at 156.21 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.6"
-			(at 156.21 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 156.21 86.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f770f1e-ebe4-4af0-b088-a7f3ff72ea85")
-		)
-		(pin "2"
-			(uuid "74d0529f-f32f-4f19-b5e0-db701b981fbc")
-		)
-		(instances
-			(project "Driver-DRV8317"
-				(path "/3405951f-57dc-4fe4-9d27-c3f46aa5edca/050f18f7-fdeb-4ff1-ae4f-f557a7672314"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -7568,71 +7188,6 @@
 			(project "Driver-DRV8317"
 				(path "/3405951f-57dc-4fe4-9d27-c3f46aa5edca/050f18f7-fdeb-4ff1-ae4f-f557a7672314"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b776418-3d09-4eab-90e3-34d7495fbae8")
-		(property "Reference" "#PWR053"
-			(at 186.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c07bfaf3-0477-4008-b4bd-f0061d53dbc4")
-		)
-		(instances
-			(project "Driver-DRV8317"
-				(path "/3405951f-57dc-4fe4-9d27-c3f46aa5edca/050f18f7-fdeb-4ff1-ae4f-f557a7672314"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9232,83 +8787,6 @@
 			(project "Driver-DRV8317"
 				(path "/3405951f-57dc-4fe4-9d27-c3f46aa5edca/050f18f7-fdeb-4ff1-ae4f-f557a7672314"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8f6e721-5181-4441-ba13-9eac24257f3c")
-		(property "Reference" "D6"
-			(at 179.3875 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Red LED"
-			(at 179.3875 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4479b0cd-89e0-4221-89ef-936b539a56ec")
-		)
-		(pin "1"
-			(uuid "e7a27dc4-1b95-46c0-a76c-f27172dcf2e8")
-		)
-		(instances
-			(project "Driver-DRV8317"
-				(path "/3405951f-57dc-4fe4-9d27-c3f46aa5edca/050f18f7-fdeb-4ff1-ae4f-f557a7672314"
-					(reference "D6")
 					(unit 1)
 				)
 			)

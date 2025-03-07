@@ -5430,6 +5430,28 @@
 	)
 	(hierarchical_label "TIM1_CH1"
 		(shape output)
+		(at 205.74 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14b323ec-1c89-43d7-a248-483df78247f5")
+	)
+	(hierarchical_label "TIM1_CH2N"
+		(shape output)
+		(at 193.04 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1eb8afb6-d38f-4c68-90e0-5e972ec5b290")
+	)
+	(hierarchical_label "TIM1_CH1"
+		(shape output)
 		(at 261.62 66.04 0)
 		(effects
 			(font
@@ -5449,17 +5471,6 @@
 			(justify right)
 		)
 		(uuid "204ba3b2-0f92-4c74-bc3b-22c8af8bb16d")
-	)
-	(hierarchical_label "TIM1_CH1N"
-		(shape output)
-		(at 193.04 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22cab6e8-6c2c-42b8-8aed-2a75c1627cac")
 	)
 	(hierarchical_label "TIM1_CH2"
 		(shape output)
@@ -5482,17 +5493,6 @@
 			(justify left)
 		)
 		(uuid "37961fee-a774-407c-8d19-4ebd0cfe8807")
-	)
-	(hierarchical_label "TIM1_CH2N"
-		(shape output)
-		(at 193.04 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38481aac-24b3-4088-bbec-5633b3eca54d")
 	)
 	(hierarchical_label "IMU_INT1"
 		(shape input)
@@ -5549,6 +5549,17 @@
 		)
 		(uuid "5b17333c-f58c-4d5f-8da8-f078d917b7c1")
 	)
+	(hierarchical_label "TIM1_CH3N"
+		(shape output)
+		(at 193.04 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f0cf0a6-3bb6-463b-95ae-8cdbe55f2978")
+	)
 	(hierarchical_label "IMU_MISO"
 		(shape input)
 		(at 261.62 81.28 0)
@@ -5604,17 +5615,6 @@
 		)
 		(uuid "7fc8a98f-da09-4786-a3ec-db2b50223936")
 	)
-	(hierarchical_label "TIM1_CH1"
-		(shape output)
-		(at 193.04 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91b03367-9a3e-4f22-9829-05c2c5e51e5d")
-	)
 	(hierarchical_label "Vcurrfdbk_C"
 		(shape input)
 		(at 205.74 73.66 180)
@@ -5661,25 +5661,14 @@
 	)
 	(hierarchical_label "TIM1_CH2"
 		(shape output)
-		(at 193.04 144.78 180)
+		(at 193.04 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ae546db3-078d-4e8f-b8f1-69124c1840ec")
-	)
-	(hierarchical_label "TIM1_CH3"
-		(shape output)
-		(at 205.74 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bffded21-530f-4799-8615-d091287169a2")
+		(uuid "c58dafb5-7755-46c4-af25-30e610acfa2b")
 	)
 	(hierarchical_label "NSLEEP"
 		(shape output)
@@ -5725,16 +5714,16 @@
 		)
 		(uuid "da1d869d-bcf1-402b-8e6d-d28507234d52")
 	)
-	(hierarchical_label "TIM1_CH3N"
+	(hierarchical_label "TIM1_CH3"
 		(shape output)
-		(at 205.74 147.32 0)
+		(at 193.04 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f492967e-eac8-44c1-9895-cb7ae7447acd")
+		(uuid "da4ec47a-6f79-4ccb-a47c-a216b36aa00a")
 	)
 	(hierarchical_label "Encoder1 B"
 		(shape input)
